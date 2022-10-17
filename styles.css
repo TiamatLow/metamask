@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.metamask-container {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    row-gap: 10px;
+}
+
+.metamask-container .inner-container
+{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.metamask-container button {
+    background-color: darkorange;
+    border-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.metamask-container button:hover {
+    background-color: orange;
+    border-color: darkblue;
+    color: darkblue;
+}
